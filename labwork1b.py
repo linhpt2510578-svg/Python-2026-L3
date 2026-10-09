@@ -71,10 +71,8 @@ while True:
     match selected:
         case 1:
             marks(courses, students, mark)
-            
         case 2:
             print("Students: ", students)
-
         case 3:
             print("Courses: ", courses)
         case 4:
@@ -84,7 +82,7 @@ while True:
         case _:
             print("NOT EXIST")
 
-
+ 
 
 
 
